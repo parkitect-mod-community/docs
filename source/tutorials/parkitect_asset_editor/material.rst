@@ -19,7 +19,8 @@ As the name gives away there are two base materials: the Specular materials are 
 These materials all have the same texture, the 256 palette, and are used by most objects in Parkitect. Because of that the GPU can use one texture for almost all objects. **We also can guarantee that if you use these materials your assets will keep rendering properly in future game updates. If you roll your own materials they may (and probably will) stop working in the future and you have to update your asset pack. That's why we strongly encourage you to use our materials.**
 
 Using the materials
-------
+-------------------
+
 As you can see the 256 palette is a very simple texture with 256 colors and the largest part of Parkitect is build on these colors. To use them on your models you need to import the 256 palette texture in your 3d modeling program. The texture is shipped with the asset editor and is located at `Assets/Resources/Textures/256palette.tga`. The next step is to map the texture on your model, also called UV mapping.
 
 > Tutorials on how to map uv's with your favorite 3d program can be easily found on the internet.
@@ -33,8 +34,6 @@ Export the model as fbx, obj or another format that Unity can read and copy it t
 .. image:: image/material_naming.png
 
 > For some model formats you need to check the scale factor of the model in the inspector. For example, fbx needs a factor of 100 to match 1 unit with 1 tile in Parkitect.
-
-
 
 .. _material_custom_colors:
 

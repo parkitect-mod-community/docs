@@ -1,4 +1,4 @@
-Patch Attachments
+Path Attachments
 =================
 
 .. toctree::
